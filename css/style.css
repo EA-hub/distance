@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
+    background: #F5F5F5;
 }   
 .header {
     padding-top: 6px;
@@ -104,5 +106,144 @@ body{
     fill: #FFFFFF;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
 
+.menu-sidebar  {
+    margin-top: 18px;
+    max-width: 192px;
+    margin-right: 12px;
+}
+
+.menu-sidebar .user {
+    padding-left: 10px;
+}
+.menu-sidebar .user-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-sidebar .user-name {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.nav-link {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #595959;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    color: #262626;
+    background: #FFFFFF;
+}
+
+.nav-text {
+    margin-left: 8px;
+}
+
+.nav-title {
+    padding-left: 10px;
+    color: #262626;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.main-feed {
+    max-width: 588px;
+    margin-top: 18px;
+    flex-grow: 1;
+}
+
+.creat-post {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.creat-post-header {
+    padding: 9px 16px;
+    line-height: 22px;
+}
+
+.creat-post-title {
+    color: #595959;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.creat-post-body {
+    paddin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.creat-post-input {
+    width: 100%;
+    padding-top: 8px;    
+}
+
+.creat-post-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 16px 16px 16px;  
+}
+
+.creat-post-footer:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color:#E8E8E8;
+    margin-bottom: 16px;
+}
+
+.tag {
+    background: #F5F5F5;
+    border-radius: 48px;
+    border: none;
+    padding: 9px 12px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.tag-icon {
+    margin-right: 8px;
+}
+
+.button-text {
+    font-size: 14px;
+    line-height: 22px;
+}
 
